@@ -23,7 +23,7 @@ export function Header({ onOpenStudentArea }: { onOpenStudentArea: () => void })
   return (
     <header className="sticky top-0 z-50 border-b border-border/80 bg-background/95 backdrop-blur-xl">
       <div className="mx-auto flex h-[72px] max-w-[1440px] items-center justify-between px-5 sm:px-8 lg:h-20 lg:px-12">
-        <a href="#inicio" className="focus-ring flex items-center gap-2.5 rounded-lg" aria-label="Trilhara - início">
+        <a href="#inicio" className="focus-ring flex min-h-11 items-center gap-2.5 rounded-lg" aria-label="Trilhara - início">
           <Waypoints className="h-8 w-8 text-primary" strokeWidth={2.25} aria-hidden="true" />
           <span className="text-xl font-extrabold tracking-[-0.035em] text-foreground sm:text-2xl">Trilhara</span>
         </a>

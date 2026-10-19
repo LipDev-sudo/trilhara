@@ -5,7 +5,7 @@ export function Footer() {
     <footer className="border-t border-border bg-white">
       <div className="mx-auto flex max-w-[1320px] flex-col gap-8 px-5 py-12 sm:px-8 md:flex-row md:items-center md:justify-between lg:px-12">
         <div>
-          <a href="#inicio" className="focus-ring inline-flex items-center gap-2 rounded-lg font-extrabold text-foreground"><Waypoints className="h-7 w-7 text-primary" aria-hidden="true" /> Trilhara</a>
+          <a href="#inicio" className="focus-ring inline-flex min-h-11 items-center gap-2 rounded-lg font-extrabold text-foreground"><Waypoints className="h-7 w-7 text-primary" aria-hidden="true" /> Trilhara</a>
           <p className="mt-3 max-w-lg text-sm leading-6 text-muted-foreground">Demonstração funcional de aprendizagem online desenvolvida por Hamilton Felipe. Não oferece matrículas, certificados ou pagamentos reais.</p>
         </div>
         <div className="flex flex-wrap gap-3">
